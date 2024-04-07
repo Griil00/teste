@@ -1,6 +1,5 @@
 
 import java.awt.Color;
-import java.awt.FlowLayout;
 import java.awt.Font;
 
 import javax.swing.JButton;
@@ -18,7 +17,7 @@ public class tela2 {
 
     JFrame janela = new JFrame();
 
-    JButton Button = new JButton("BILHETE UNICO");
+    JButton Button = new JButton("BILHETE");
     JButton Button2 = new JButton("Dinheiro");
 
     janela.setVisible(true);
@@ -49,7 +48,7 @@ public class tela2 {
 
     Button.setVisible(true);
 
-    Button.setBounds(100, 250, 150, 50);
+    Button.setBounds(80, 250, 150, 50);
 
     Button.setFont(new Font("Arial", Font.BOLD, 20));
 
@@ -64,7 +63,7 @@ public class tela2 {
 
     Button2.setVisible(true);
 
-    Button2.setBounds(200, 250, 200, 50);
+    Button2.setBounds(270, 250, 150, 50);
 
     Button2.setFont(new Font("Arial", Font.BOLD, 20));
 
